@@ -10970,3 +10970,35 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/* Container for the three columns */
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Each skills column */
+.skills-column {
+    flex: 1;
+    min-width: 300px; /* Ensure the columns wrap at a reasonable size */
+}
+
+/* Ensure the sections are well-spaced */
+.subheading {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.list-inline {
+    padding-left: 0;
+}
+
+.list-inline-item {
+    margin-right: 10px;
+}
